@@ -1,0 +1,56 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+:root{
+    --bg_Color: #202124;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--bg_Color);
+
+
+}
+
+.Header {
+    border-bottom: 1px solid red;
+    width: 100vw;
+    height: 50px;
+}
+
+.I_Header {
+    width: 99%;
+    margin: auto;
+    
+    
+}
+
+.L_Header {
+    color: white;
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Mail_H {
+
+}
+.Images_H {
+
+}
+
+
+
+.Logo_H img {
+    width: 50px;
+    border-radius: 50%;
+}
