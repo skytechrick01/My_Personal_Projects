@@ -71,6 +71,7 @@ body {
 }
 
 .Logo_H img {
+    cursor: pointer;
     width: 32px;
     position: relative;
     right: 1px;
@@ -82,15 +83,61 @@ body {
 
 .Blank_S {
     width: 100%;
-    height: 50px;
+    height: 164px;
 }
 
 .G_Center {
-    border: 1px solid red;
-    width: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.G_Center img {
+    height: 92px;
+    position: relative;
+    /* right: 1px; */
 
 }
-.G_Center {
-    border: 1px solid red;
-    width: 100px;
+
+
+
+.G_Center_Down {
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 100%;
+
 }
+
+
+.Input_Box {
+    width: 700px;
+    margin: auto;
+    /* background-color: aqua; */
+    height: 100px;
+
+}
+
+.Input_Main_Box {
+    position: relative;
+    top: -3px;
+    width: 582px;
+    border: 1px solid #5F6368;
+    background-color: var(--bg_Color);
+    height: 46px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.Icon_Inp {
+    color: #5F6368;
+    padding: 10px;
+    font-size: 1px;
+    line-height: 20px;
+    padding-left: 13px;
+}
+
+/* .Search_Inp{
+
+} */
