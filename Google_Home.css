@@ -48,6 +48,7 @@ body {
     bottom: 3px;
     left: 10px;
 }
+
 .Mail_H:hover {
     text-decoration: underline;
 }
@@ -78,9 +79,6 @@ body {
     border-radius: 50%;
 }
 
-
-
-
 .Blank_S {
     width: 100%;
     height: 164px;
@@ -98,6 +96,7 @@ body {
     height: 92px;
 
 }
+
 form {
     position: relative;
     top: -3px;
@@ -107,7 +106,7 @@ form {
 
 .G_Center_Down {
     /* border: 1px solid red; */
-    height: 100px;
+    height: 63px;
     width: 100%;
 
 }
@@ -118,11 +117,15 @@ form {
     margin: auto;
     /* background-color: aqua; */
     height: 100px;
-    
+
+}
+
+.Input_Main_Box:hover {
+    background-color: #303134;
+    border: none;
 }
 
 .Input_Main_Box {
-    
     width: 582px;
     border: 1px solid #5F6368;
     background-color: var(--bg_Color);
@@ -133,6 +136,7 @@ form {
     top: 0px;
     display: flex;
     align-items: center;
+
 }
 
 .Icon_Inp {
@@ -143,9 +147,7 @@ form {
     padding-left: 13px;
 }
 
-.Search_Inp{
-    /* position: absolute;
-    top: 0px; */
+.Search_Inp {
     outline: none;
     font-size: 14px;
     padding: 13px;
@@ -161,11 +163,7 @@ form {
 
 
 .Icon_Close {
-    /* position: absolute; */
-    /* top: 0px; */
-    /* right: 100px; */
-    color: rgb(154,160,166);
-    /* vertical-align: ; */
+    color: rgb(154, 160, 166);
     position: relative;
     right: 10px;
 
@@ -177,6 +175,7 @@ form {
     width: 62px;
 
 }
+
 .Voice_Inp img {
     display: block;
     margin: auto;
@@ -186,13 +185,88 @@ form {
 }
 
 
-.Img_Inp {
-    /* border: 1px solid red; */
-    /* width: 50px; */
-
-}
 .Img_Inp img {
     position: relative;
     top: 2px;
     width: 18px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #171717;
+}
+
+.First_Foot {
+    border-bottom: 1px solid #5F6368;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 15px 30px;
+    font-family: arial, sans-serif;
+}
+
+.Second_Foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 30px;
+    font-family: arial, sans-serif;
+}
+
+.Second_Foot a {
+    color: white;
+    padding: 0 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.Second_Foot a:hover {
+    text-decoration: underline;
+}
+
+.Btn_Under_Search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Btn1 {
+    font-family: arial, sans-serif;
+    background-color: #303134;
+    color: #e8eaed;
+    margin: 11px 6px;
+    border-radius: 4px;
+    padding: 11px 18px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.LastPT {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+}
+
+.LastPT a:hover {
+    text-decoration: underline;
+}
+
+.LastPT a {
+    text-decoration: none;
+    margin: 0px 5px;
+    color: rgb(138, 180, 248);
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
 }
